@@ -1,0 +1,201 @@
+body {
+  font-family: "Graphein Pro",Helvetica, Arial, sans-serif;
+  /* width: 80%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: white;
+  overflow: auto;
+  border: 20px solid white; */
+  
+
+}
+.chaltrus{
+  padding: 10px; /* body border */
+}
+header {
+  background-image: url(design2_image1.jpeg);
+  height: 150px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: chartreuse;
+  background-size: cover;
+}
+.titulo-principal {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: whitesmoke;
+  align-items: stretch;
+  }
+.titulo-secundario {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 5px;
+  font-weight: 200;
+  color: chartreuse;
+  background: #466368;
+  background: -webkit-radial-gradient(#648880, #293f50);
+  background:    -moz-radial-gradient(#648880, #293f50);
+  background:         radial-gradient(#648880, #293f50);
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: chartreuse;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  top:100px;
+  left:350px;
+  height: 200px;
+  width: 200px;  
+}
+nav {
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  display: inline-block;
+  margin: 0 1%;
+  align-content: stretch;
+}
+nav a{
+  background-color: green;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px double;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px #5f2b1a;
+  text-align: center;
+}
+.eventos {
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  float: right;
+  float:left;
+  margin: 0 1%;
+  width: 80%;
+}
+.actual{
+  background-color: olivedrab;
+  color:chartreuse;
+}
+.btn:hover {
+  background: #7FFF00;
+}
+
+/* RULE SECTION styles */
+
+.warning {
+  position: relative;
+  top: 55px;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: center;
+}
+.sportmanship{
+  position:relative;
+  top: 50px;
+  padding: 5px;
+}
+.regulations{
+  position: relative;
+  top: 50px;
+}
+              /* LIST Styles (dentro de rules) */
+.numerada {
+  list-style-type: decimal; 
+}
+
+.letrada {
+  list-style-type: lower-alpha;
+}
+.tipo-regla {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+/* GAME INFO SECTION styles*/
+.fall{font-size: 30px;
+    margin: 0.5%;}
+.sat{
+  text-decoration: underline;
+  font-style: italic;
+  margin: 0.05%;
+}
+/* Tablas */
+.table{
+  padding: 20px;
+  align-content: center;
+}
+.game-info {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+.game-loc {
+  border-collapse: separate;
+  border-spacing: 30px;
+  column-width: 50px;
+}
+.game-loc tr td:first-child{width: 5000px}
+.game-loc td
+{font-size: 25px; }
+.extra-info{
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin-left: 0;
+}
+/* END Tablas */
+
+td{
+  font-size: 20px;
+}
+
+/*headers solamente */
+thead th {
+  font-size: 25px;
+  text-decoration: underline;
+  border-spacing: 5em;
+}
+#loc-tit { /*Game Locations Header */
+  font-size: 30px;
+  text-align: left;
+}
+
+.date {
+  
+  width:150px;
+  text-align: center;
+}
+.team {
+  
+  width:150px;
+  text-align: center;}
+
+.loc {
+  width:200px;
+  border-spacing: 5em;
+  text-align: left;
+}
+.time {
+  width:200px;
+  border-spacing: 5em;
+  text-align: center;
+}
+.school{
+    font-size: 20px;
+    width: 10%;
+    border-spacing: 5em;
+}
+.school-address{
+    font-size: 20px;
+    border-spacing: 5em;
+    width: 30%;
+}
+
+.google-map{
+  width: 5000px;
+}
+.form-header{margin-bottom: 0;}

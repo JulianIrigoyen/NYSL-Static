@@ -1,0 +1,91 @@
+/* terminado */
+header {
+  background-image: url("design1_image1.jpeg");
+  height: 150px;
+  border: 2px solid #467813;
+  border-radius: 3px;
+  color:aquamarine;  
+}
+.titulo-principal {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 0;
+  color: whitesmoke;
+  }
+.titulo-secundario {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center; 
+  color: whitesmoke;
+  background-color: black;
+  width: 100%;
+  
+  top: 150px;
+  left: 190px;
+}
+.logo {
+  position:absolute;
+  top:130px;
+  left: 800px;
+  height: 120px;
+  width: 120px;  
+}
+
+nav {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 1%;
+  width: 15%;
+}
+nav a{
+  display:block;
+  }
+#home {
+  position: absolute;
+  top: 270px;
+  left: 15px;
+}
+#about {
+  position: absolute;
+  top: 370px;
+  left: 15px;
+}#contact {
+  position: absolute;
+  top: 470px;
+  left: 15px;
+}
+.eventos {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  float: right;
+  margin: 0 1%;
+  width: 80%;
+}
+.please{
+  position: absolute;
+  top:250px;
+  left:120px;
+}
+.mision{
+  position: absolute;
+  top:250px;
+  left:120px;
+}
+.girl{
+  position: absolute;
+  top: 570px;
+  left: 15px;  
+}
+#kid{
+    position: absolute;
+  top: 570px;
+  left: 15px; 
+}
+  
+

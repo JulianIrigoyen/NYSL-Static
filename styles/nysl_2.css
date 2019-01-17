@@ -1,0 +1,76 @@
+/* listorti y chequeado */
+
+nav {
+  display: inline-block;
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  margin: 0 1%;
+  position: absolute;
+  top: 0;
+  left: 500px; 
+}
+nav a{
+  background-color: gray;
+  border: 1px double;
+}
+header {
+  top: 20px;
+  background-image: url("design1_image1.jpeg");
+  background-position: 0 250px;
+  height: 150px;
+  margin-bottom: 0.1px;
+  border: 2px solid #467813;
+  border-radius: 3px;
+  color:aquamarine;
+}
+.titulo-principal {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  margin: auto;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 300;
+  color: whitesmoke;
+  }
+.titulo-secundario {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  background-repeat: repeat;
+  border: 2px solid #949599;
+}
+h5 {
+  font-style: italic;
+}
+.eventos {
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  float: right;
+  margin: 0 -1%;
+  width: 80%;
+}
+.logo {
+  position: absolute;
+  top:330px;
+  left: 10px;
+  height: 130px;
+  width: 130px;  
+}
+.mision {
+  float: right;
+  margin: 0 -1%;
+  width: 80%;
+}
+.kid{
+  position: absolute;
+  top: 500px;
+}
+
+  
+
